@@ -12,20 +12,10 @@ public class hungry {
             System.out.println("eat burger");
         }
 
-        else if(s.equals("no"))
-        {
-            System.out.println("are u thirsty");
-            String x=sc.nextLine();
-            if(x.equals("yes"))
-            {
-                System.out.println("drink water");
-                System.out.println("soda");
-            }
-
-        }
         else
         {
             System.out.println("do homeowrk");
+            System.out.print("and get a good grade");
         }
 
     }
