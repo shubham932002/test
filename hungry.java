@@ -17,7 +17,11 @@ public class hungry {
             System.out.println("are u thirsty");
             String x=sc.nextLine();
             if(x.equals("yes"))
+            {
                 System.out.println("drink water");
+                System.out.println("soda");
+            }
+
         }
         else
         {
