@@ -6,8 +6,23 @@ public class hungry {
         System.out.println("Are u hungry?");
         String s= sc.nextLine();
         if(s.equals("yes"))
+        {
+            System.out.println("eat samosa");
             System.out.println("eat pizza");
+            System.out.println("eat burger");
+        }
+
+        else if(s.equals("no"))
+        {
+            System.out.println("are u thirsty");
+            String x=sc.nextLine();
+            if(x.equals("yes"))
+                System.out.println("drink water");
+        }
         else
-            System.out.println("do your homework");
+        {
+            System.out.println("do homeowrk");
+        }
+
     }
 }
