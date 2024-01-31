@@ -13,8 +13,12 @@ public class hungry {
             System.out.println("eat fries");
         }
 
-        else {
-            System.out.println("do your homework");
+        else
+        {
+            System.out.println("do homeowrk");
+            System.out.print("and get a good grade");
         }
+
+
     }
 }
